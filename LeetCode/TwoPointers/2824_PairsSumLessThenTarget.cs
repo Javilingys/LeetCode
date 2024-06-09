@@ -1,5 +1,7 @@
 ﻿namespace LeetCode.TwoPointers;
 
+/* https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/  */
+
 public class _2824_PairsSumLessThenTarget : LeetCodeBase
 {
     public override string Title { get; } = "2824. Count Pairs Whose Sum is Less than Target";
@@ -10,7 +12,7 @@ public class _2824_PairsSumLessThenTarget : LeetCodeBase
 
         var result = CountPairs(nums, target);
 
-        Console.WriteLine(result);
+        Console.WriteLine($"Answer is: {result}");
 
         PrintFinishMethodInfo();
     }

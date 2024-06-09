@@ -17,6 +17,7 @@ public abstract class LeetCodeBase
         _stopwatch.Start();
 
         Console.WriteLine($"Leet Code Task \"{Title}\" started.");
+        Console.WriteLine();
     }
 
     public void PrintFinishMethodInfo()
